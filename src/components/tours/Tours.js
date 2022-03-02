@@ -10,7 +10,8 @@ function Tours(props){
             
             
             <h3>Name: {oneTour.name}</h3>
-            <br/>            
+            <br/>      
+                  
             <img width={"275px"} src={oneTour.image} alt=""/>
             
             <hr />
