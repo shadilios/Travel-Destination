@@ -1,17 +1,20 @@
 import React from "react";
-
+import { Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 
 
 
-
+//  fix second route 
 function App() {
   return (
-    <div>
+    <Routes>
       
-      <Home/>
+      <Route path="/" element={<Home/>} />
+      <Route path="/city/:id" element={<Home/>} />
+
+
+    </Routes>
       
-    </div>
   )
 }
 
